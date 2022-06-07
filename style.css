@@ -410,6 +410,58 @@ a {
     padding-right: 12px;
     border-right: 1px solid #dfe2ec;
 }
+#contact-me {
+    background: linear-gradient(90deg, #03a9f4, #f441a5);
+    background-size: 1000px;
+    border: currentColor 0.125em solid;
+    outline: none;
+    color: white;
+    padding: 17px 16px;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500px;
+    font-family: "Quicksand", sans-serif;
+    transition: 0.3s;
+    z-index: 1;
+    -webkit-transition-duration: 0.4s;
+}
+
+#contact-me:hover {
+    animation: contactme 8s linear infinite;
+}
+
+@keyframes contactme {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+
+#contact-me::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #03a9f4, #f441a5);
+    background-size: 1000px;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#contact-me:hover:before {
+    filter: blur(500px);
+    opacity: 1;
+    animation: contactme 8s linear infinite;
+}
+
 
 .box {
     position: absolute;
