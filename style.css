@@ -30,7 +30,7 @@ body {
 }
 
 .card {
-    max-width: 340px;
+    max-width: 360px;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -50,7 +50,7 @@ a {
 }
 
 .card[data-state="#about"] {
-    height: 500px;
+    height: 600px;
 }
 
 .card[data-state="#about"] .card-main {
@@ -222,6 +222,20 @@ a {
     margin: 0;
     font-weight: 400;
     font-family: "Work Sans", sans-serif;
+}
+i{
+    color: red;
+    margin-left: 30px;
+    margin-top: px;
+}
+strong img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin-bottom: auto;
+    margin-top: -80px;
+    margin-right: auto;
+    margin-left: 170px;
 }
 
 .card-social {
@@ -427,7 +441,7 @@ a {
     font-family: "Quicksand", sans-serif;
     transition: 0.3s;
     z-index: 1;
-    -webkit-transition-duration: 0.4s;
+    
 }
 
 #contact-me:hover {
