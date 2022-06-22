@@ -50,7 +50,7 @@ a {
 }
 
 .card[data-state="#about"] {
-    height: 600px;
+    height: 520px;
 }
 
 .card[data-state="#about"] .card-main {
@@ -228,7 +228,7 @@ a {
     display: flex;
     align-items: center;
     padding: 0 30px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .card-social svg {
