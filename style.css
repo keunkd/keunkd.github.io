@@ -30,7 +30,7 @@ body {
 }
 
 .card {
-    max-width: 340px;
+    max-width: 400px;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -50,7 +50,7 @@ a {
 }
 
 .card[data-state="#about"] {
-    height: 520px;
+    height: 550px;
 }
 
 .card[data-state="#about"] .card-main {
@@ -75,7 +75,8 @@ a {
 }
 
 .card[data-state="#contact"] {
-    height: 430px;
+    height: 530px;
+    width: 450px;
 }
 
 .gynngu {
@@ -233,14 +234,14 @@ a {
 
 .card-social svg {
     fill:#FF3030;
-    width: 16px;
+    width: 20px;
     display: block;
     transition: 0.3s;
 }
 
 .card-social a {
     color: #10ec52;
-    height: 32px;
+    height: 22px;
     width: 32px;
     border-radius: 50%;
     display: inline-flex;
